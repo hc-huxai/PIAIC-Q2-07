@@ -22,14 +22,19 @@ export default function Home() {
             CASE STUDIES
           </h1>
           <div className="grid grid-cols-3 gap-4">
-            {tiles.map((tile, index) => (
+            {/* {tiles.map((tile, index) => (
               <GridTile
                 className={tile.className}
                 img={tile.img}
                 text={tile.text}
                 key={index}
               />
-            ))}
+            ))} */}
+            <GridTile
+              className="col-span-2 row-span-1"
+              img={Img01}
+              text="Resumas"
+            />
           </div>
         </div>
       </main>
