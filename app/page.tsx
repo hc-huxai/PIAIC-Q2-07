@@ -46,7 +46,7 @@ export default function Home() {
           <h1 className="tracking-wider font-medium leading-10">
             CASE STUDIES
           </h1>
-          <div className="grid grid-cols-3 gap-4 w-full">
+          <div className="grid grid-cols-3 max-md:grid-cols-1 gap-4 w-full">
             {tiles.map((tile, index) => {
               return (
                 <GridTile
