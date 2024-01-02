@@ -9,7 +9,7 @@ export const GridTile = ({ text, img, className }: Tile) => {
   return (
     <div
       className={cn(
-        "group min-h-[240px] rounded-md p-6 max-md:col-span-1 overflow-hidden relative flex items-end",
+        "group min-h-[240px] rounded-md p-6 max-md:col-span-1  relative grid place-items-end",
         className
       )}
     >

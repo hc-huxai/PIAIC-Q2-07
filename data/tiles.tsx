@@ -9,26 +9,26 @@ export const tiles: Tile[] = [
   {
     img: Img01,
     text: "Resumas",
-    className: "col-start-1 col-end-3 row-span-1",
+    className: "col-span-2",
   },
   {
     img: Img02,
     text: "Recruitment",
-    className: "col-span-1 row-span-2",
+    className: "row-span-2",
   },
   {
     img: Img03,
     text: "Just count it!",
-    className: "col-span-1 row-span-2",
+    className: "row-span-2",
   },
   {
     img: Img04,
     text: "FlipFlip",
-    className: "col-span-1 row-span-1",
+    className: "",
   },
   {
     img: Img05,
     text: "Beauty Spaces",
-    className: "col-span-2 row-span-1",
+    className: "col-span-2",
   },
-];
+] as const;
